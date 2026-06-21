@@ -5,7 +5,7 @@ const { time } = require("@nomicfoundation/hardhat-network-helpers");
 const USDC = (n) => BigInt(n) * 1_000_000n;
 const BPS = (amount, bps) => (amount * BigInt(bps)) / 100n;
 
-describe("FreelanceSystem_v2", function () {
+describe("FreelanceSystem", function () {
   let admin, client, freelancer, arb1, arb2, arb3, arb4, arb5, outsider;
   let usdc, reputation, treasury, registry, panel, escrow;
 
