@@ -4,7 +4,7 @@
 
 > **English:** Web3 freelance escrow dApp — clients fund jobs on-chain, freelancers deliver via IPFS, disputes resolved by a staked commit–reveal arbitrator panel.
 
-**Cập nhật:** 2026-06-28
+**Cập nhật:** 2026-06-30
 
 ---
 
@@ -58,7 +58,7 @@ cd frontend && npm install && cp .env.example .env && npm run dev
 ```bash
 npm run deploy:sepolia       # demo dispute timings (phút)
 npm run deploy:sepolia:prod  # production timings (giờ)
-npm run seed:arbitrators     # pool ≥5 cho raiseDispute
+npm run seed:arbitrators     # pool ≥5 dispute; ≥10 cho appeal
 npm run check:dispute
 ```
 
@@ -90,6 +90,8 @@ npm run check:dispute
 | Luồng E2E | [docs/guides/workflow-e2e-vi.md](docs/guides/workflow-e2e-vi.md) |
 | Demo script | [docs/guides/demo-script-vi.md](docs/guides/demo-script-vi.md) |
 | Q&A phòng vấn | [docs/guides/demo-qa-defense-vi.md](docs/guides/demo-qa-defense-vi.md) |
+| Cơ chế nền tảng | [docs/guides/platform-mechanisms-vi.md](docs/guides/platform-mechanisms-vi.md) |
+| Governance roles | [docs/guides/admin-roles-vi.md](docs/guides/admin-roles-vi.md) |
 | Chainlink | [docs/guides/chainlink-integration-vi.md](docs/guides/chainlink-integration-vi.md) |
 | Audit matrix | [docs/guides/issue-audit-status-vi.md](docs/guides/issue-audit-status-vi.md) |
 
